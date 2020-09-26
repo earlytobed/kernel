@@ -9,6 +9,7 @@ kernel/fs/nfs_common/grace.ko
 kernel/fs/quota/quota_v1.ko
 kernel/fs/quota/quota_v2.ko
 kernel/fs/quota/quota_tree.ko
+kernel/fs/nls/nls_cp437.ko
 kernel/fs/nls/nls_cp936.ko
 kernel/fs/nls/nls_utf8.ko
 kernel/fs/pstore/ramoops.ko
