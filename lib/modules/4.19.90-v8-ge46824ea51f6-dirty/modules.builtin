@@ -274,7 +274,6 @@ kernel/drivers/regulator/gpio-regulator.ko
 kernel/drivers/rtc/rtc-efi.ko
 kernel/drivers/rtc/rtc-pl031.ko
 kernel/drivers/scsi/scsi_mod.ko
-kernel/drivers/scsi/raid_class.ko
 kernel/drivers/scsi/scsi_transport_iscsi.ko
 kernel/drivers/scsi/sd_mod.ko
 kernel/drivers/spi/spi-dw.ko
