@@ -270,7 +270,6 @@ kernel/drivers/pps/pps_core.ko
 kernel/drivers/ptp/ptp.ko
 kernel/drivers/regulator/fixed.ko
 kernel/drivers/regulator/gpio-regulator.ko
-kernel/drivers/rtc/rtc-efi.ko
 kernel/drivers/rtc/rtc-pl031.ko
 kernel/drivers/scsi/scsi_mod.ko
 kernel/drivers/scsi/scsi_transport_iscsi.ko

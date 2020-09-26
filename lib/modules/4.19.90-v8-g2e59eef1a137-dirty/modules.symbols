@@ -176,7 +176,6 @@ alias symbol:tinydrm_xrgb8888_to_gray8 tinydrm
 alias symbol:usb_descriptor_fillbuf libcomposite
 alias symbol:cfg80211_check_combinations cfg80211
 alias symbol:v4l2_ctrl_notify videodev
-alias symbol:lib80211_crypt_delayed_deinit lib80211
 alias symbol:nf_log_dump_udp_header nf_log_common
 alias symbol:p9_client_rename 9pnet
 alias symbol:dvb_ringbuffer_flush dvb_core
@@ -201,17 +200,13 @@ alias symbol:wm8804_pm snd_soc_wm8804
 alias symbol:fuse_dev_operations fuse
 alias symbol:mtd_ooblayout_count_eccbytes mtd
 alias symbol:snd_soc_dpcm_be_get_state snd_soc_core
-alias symbol:dw_dma_probe dw_dmac_core
 alias symbol:cxgb4_create_server6 cxgb4
 alias symbol:stp_proto_unregister stp
-alias symbol:tifm_remove_adapter tifm_core
 alias symbol:t4_cleanup_clip_tbl cxgb4
 alias symbol:v4l2_src_change_event_subscribe videodev
 alias symbol:v4l2_m2m_try_schedule v4l2_mem2mem
 alias symbol:vsock_addr_validate vsock
 alias symbol:alloc_c_can_dev c_can
-alias symbol:cb710_set_irq_handler cb710
-alias symbol:fbtft_write_reg8_bus9 fbtft
 alias symbol:l2cap_unregister_user bluetooth
 alias symbol:cfg80211_assoc_timeout cfg80211
 alias symbol:crypto_ecdh_decode_key ecdh_generic
@@ -244,7 +239,6 @@ alias symbol:w1_triplet wire
 alias symbol:rmi_set_attn_data rmi_core
 alias symbol:snd_seq_dump_var_event snd_seq
 alias symbol:v4l2_clk_unregister_fixed videodev
-alias symbol:cb710_sg_dwiter_read_next_block cb710
 alias symbol:dib7000p_attach dib7000p
 alias symbol:snd_timer_start snd_timer
 alias symbol:cx2341x_handler_init cx2341x
@@ -301,7 +295,6 @@ alias symbol:snd_interval_ranges snd_pcm
 alias symbol:ulpi_unregister_interface ulpi
 alias symbol:__fscache_register_netfs fscache
 alias symbol:go7007_snd_remove go7007
-alias symbol:lib80211_get_crypto_ops lib80211
 alias symbol:usbnet_write_cmd usbnet
 alias symbol:bt_procfs_cleanup bluetooth
 alias symbol:mrp_request_join mrp
@@ -335,7 +328,6 @@ alias symbol:vb2_dqbuf videobuf2_v4l2
 alias symbol:em28xx_register_extension em28xx
 alias symbol:ledtrig_flash_ctrl ledtrig_camera
 alias symbol:spk_ttyio_synth_probe speakup
-alias symbol:tifm_unmap_sg tifm_core
 alias symbol:cn_netlink_send_mult cn
 alias symbol:sensor_hub_device_close hid_sensor_hub
 alias symbol:sensor_hub_input_attr_get_raw_value hid_sensor_hub
@@ -387,7 +379,6 @@ alias symbol:lg2160_attach lg2160
 alias symbol:snd_dmaengine_pcm_pointer_no_residue snd_pcm_dmaengine
 alias symbol:tap_del_queues tap
 alias symbol:snd_soc_dapm_del_routes snd_soc_core
-alias symbol:tifm_free_adapter tifm_core
 alias symbol:cdrom_dummy_generic_packet cdrom
 alias symbol:dvb_module_release dvb_core
 alias symbol:p9_client_readlink 9pnet
@@ -415,7 +406,6 @@ alias symbol:dvb_net_init dvb_core
 alias symbol:snd_soc_dapm_ignore_suspend snd_soc_core
 alias symbol:v4l2_valid_dv_timings v4l2_dv_timings
 alias symbol:crypto_chacha20_crypt chacha20_generic
-alias symbol:fbtft_write_vmem8_bus8 fbtft
 alias symbol:drm_sched_job_init gpu_sched
 alias symbol:mxl111sf_demod_attach mxl111sf_demod
 alias symbol:snd_soc_component_update_bits_async snd_soc_core
@@ -481,7 +471,6 @@ alias symbol:fsg_hs_function usb_f_mass_storage
 alias symbol:gether_register_netdev u_ether
 alias symbol:snd_dma_alloc_pages snd_pcm
 alias symbol:ssb_device_disable ssb
-alias symbol:cqhci_irq cqhci
 alias symbol:cfg80211_find_ie_match cfg80211
 alias symbol:fsg_lun_fsync_sub usb_f_mass_storage
 alias symbol:ovs_vport_free openvswitch
@@ -492,7 +481,6 @@ alias symbol:nf_sk_lookup_slow_v6 nf_socket_ipv6
 alias symbol:cxgb4_best_mtu cxgb4
 alias symbol:ieee802154_hdr_peek ieee802154
 alias symbol:cryptd_ablkcipher_queued cryptd
-alias symbol:fbtft_write_vmem16_bus8 fbtft
 alias symbol:media_create_pad_links media
 alias symbol:brcmu_pktq_pflush brcmutil
 alias symbol:ieee80211_send_eosp_nullfunc mac80211
@@ -546,14 +534,12 @@ alias symbol:iscsi_pool_free libiscsi
 alias symbol:snd_dmaengine_pcm_pointer snd_pcm_dmaengine
 alias symbol:tap_free_minor tap
 alias symbol:nand_exit_status_op nand
-alias symbol:ds1685_rtc_poweroff rtc_ds1685
 alias symbol:snd_pcm_new snd_pcm
 alias symbol:snd_card_set_id snd
 alias symbol:tcp_vegas_get_info tcp_vegas
 alias symbol:mtd_read_fact_prot_reg mtd
 alias symbol:nf_nat_icmpv6_reply_translation nf_nat_ipv6
 alias symbol:v4l2_event_unsubscribe_all videodev
-alias symbol:cqhci_pltfm_init cqhci
 alias symbol:devm_iio_device_alloc industrialio
 alias symbol:nf_send_reset6 nf_reject_ipv6
 alias symbol:c_can_power_down c_can
@@ -669,7 +655,6 @@ alias symbol:nf_ct_port_nla_policy nf_conntrack
 alias symbol:usb_serial_port_softint usbserial
 alias symbol:zs_malloc zsmalloc
 alias symbol:_snd_pcm_stream_lock_irqsave snd_pcm
-alias symbol:fbtft_unregister_framebuffer fbtft
 alias symbol:devm_snd_dmaengine_pcm_register snd_soc_core
 alias symbol:video_device_alloc videodev
 alias symbol:vb2_dma_contig_memops videobuf2_dma_contig
@@ -691,7 +676,6 @@ alias symbol:iscsi_boot_create_target iscsi_boot_sysfs
 alias symbol:ledtrig_torch_ctrl ledtrig_camera
 alias symbol:u_audio_start_playback u_audio
 alias symbol:fscache_operation_init fscache
-alias symbol:hidma_mgmt_init_sys hdma_mgmt
 alias symbol:set_sig_addr_hook nf_conntrack_h323
 alias symbol:arizona_rate_text snd_soc_arizona
 alias symbol:__iscsi_complete_pdu libiscsi
@@ -727,7 +711,6 @@ alias symbol:__ieee80211_get_assoc_led_name mac80211
 alias symbol:vb2_querybuf videobuf2_v4l2
 alias symbol:ip_set_alloc ip_set
 alias symbol:nft_set_ext_types nf_tables
-alias symbol:tifm_unregister_driver tifm_core
 alias symbol:l2tp_nl_unregister_ops l2tp_netlink
 alias symbol:nf_osf_fingers nfnetlink_osf
 alias symbol:arizona_init_vol_limit snd_soc_arizona
@@ -780,7 +763,6 @@ alias symbol:nf_ct_seq_adjust nf_conntrack
 alias symbol:snd_seq_kernel_client_enqueue snd_seq
 alias symbol:l2cap_conn_put bluetooth
 alias symbol:vb2_buffer_done videobuf2_common
-alias symbol:fbtft_register_backlight fbtft
 alias symbol:vb2_queue_release videobuf2_v4l2
 alias symbol:au8522_get_state au8522_common
 alias symbol:bt_sock_ioctl bluetooth
@@ -804,7 +786,6 @@ alias symbol:cfg80211_abandon_assoc cfg80211
 alias symbol:ct_sip_parse_request nf_conntrack_sip
 alias symbol:tinydrm_xrgb8888_to_rgb565 tinydrm
 alias symbol:v4l2_ctrl_g_ctrl videodev
-alias symbol:cqhci_resume cqhci
 alias symbol:ieee80211_tx_status_ext mac80211
 alias symbol:snd_pcm_hw_constraint_eld snd_pcm
 alias symbol:pmbus_clear_faults pmbus_core
@@ -871,7 +852,6 @@ alias symbol:v4l2_m2m_create_bufs v4l2_mem2mem
 alias symbol:nf_ct_timeout_find_get_hook nf_conntrack
 alias symbol:usb_ep_clear_halt udc_core
 alias symbol:usbip_stop_eh usbip_core
-alias symbol:cqhci_init cqhci
 alias symbol:btbcm_setup_patchram btbcm
 alias symbol:media_device_unregister_entity media
 alias symbol:snd_soc_info_volsw_range snd_soc_core
@@ -916,7 +896,6 @@ alias symbol:u_audio_stop_capture u_audio
 alias symbol:cast_s3 cast_common
 alias symbol:snd_register_device snd
 alias symbol:sonet_subtract_stats atm
-alias symbol:fbtft_framebuffer_release fbtft
 alias symbol:snd_timer_resolution snd_timer
 alias symbol:wm_adsp2_init snd_soc_wm_adsp
 alias symbol:cfg80211_gtk_rekey_notify cfg80211
@@ -932,7 +911,6 @@ alias symbol:snd_soc_component_nc_pin snd_soc_core
 alias symbol:v4l_printk_ioctl videodev
 alias symbol:__fscache_read_or_alloc_page fscache
 alias symbol:cxgb4_get_tcp_stats cxgb4
-alias symbol:dw_mci_probe dw_mmc
 alias symbol:unregister_mtd_user mtd
 alias symbol:register_ip_vs_scheduler ip_vs
 alias symbol:iio_device_alloc industrialio
@@ -1327,7 +1305,6 @@ alias symbol:v4l2_field_names videodev
 alias symbol:cs4271_regmap_config snd_soc_cs4271
 alias symbol:nft_reject_icmp_code nft_reject
 alias symbol:rmi_2d_sensor_abs_process rmi_core
-alias symbol:fbtft_read_spi fbtft
 alias symbol:macvlan_common_newlink macvlan
 alias symbol:snd_jack_new snd
 alias symbol:usbnet_generic_cdc_bind cdc_ether
@@ -1335,7 +1312,6 @@ alias symbol:v4l2_pipeline_link_notify videodev
 alias symbol:arizona_in_hpf_cut_enum snd_soc_arizona
 alias symbol:em28xx_read_ac97 em28xx
 alias symbol:flexcop_dump_reg b2c2_flexcop
-alias symbol:dw_mci_runtime_resume dw_mmc
 alias symbol:gether_setup_name_default u_ether
 alias symbol:snd_seq_event_port_detach snd_seq
 alias symbol:i2c_hid_ll_driver i2c_hid
@@ -1373,7 +1349,6 @@ alias symbol:register_c_can_dev c_can
 alias symbol:v4l2_m2m_ioctl_create_bufs v4l2_mem2mem
 alias symbol:drm_sched_entity_set_rq gpu_sched
 alias symbol:p9_client_open 9pnet
-alias symbol:fbtft_framebuffer_alloc fbtft
 alias symbol:btrtl_shutdown_realtek btrtl
 alias symbol:mdio_set_flag mdio
 alias symbol:snd_card_disconnect_sync snd
@@ -1421,7 +1396,6 @@ alias symbol:LZ4_compress_fast lz4_compress
 alias symbol:p9_tag_lookup 9pnet
 alias symbol:rpisense_reg_read rpisense_core
 alias symbol:spk_serial_synth_immediate speakup
-alias symbol:fbtft_write_reg16_bus16 fbtft
 alias symbol:ipvlan_link_delete ipvlan
 alias symbol:vb2_ioctl_prepare_buf videobuf2_v4l2
 alias symbol:dibx000_exit_i2c_master dibx000_common
@@ -1499,7 +1473,6 @@ alias symbol:usb_gadget_deactivate udc_core
 alias symbol:fat_time_unix2fat fat
 alias symbol:ieee80211_ie_split_ric cfg80211
 alias symbol:cdc_ncm_select_altsetting cdc_ncm
-alias symbol:cb710_pci_update_config_reg cb710
 alias symbol:flexcop_sram_set_dest b2c2_flexcop
 alias symbol:vchiq_mmal_component_disable bcm2835_mmal_vchiq
 alias symbol:w1_touch_block wire
@@ -1654,7 +1627,6 @@ alias symbol:ieee80211_remove_key mac80211
 alias symbol:iscsi_session_get_param libiscsi
 alias symbol:m88ds3103_attach m88ds3103
 alias symbol:snd_card_file_remove snd
-alias symbol:fbtft_write_spi fbtft
 alias symbol:mdio45_nway_restart mdio
 alias symbol:nf_conntrack_lock nf_conntrack
 alias symbol:regulatory_set_wiphy_regd_sync_rtnl cfg80211
@@ -1700,11 +1672,9 @@ alias symbol:nf_ct_helper_expectfn_register nf_conntrack
 alias symbol:__cfg80211_send_event_skb cfg80211
 alias symbol:snd_soc_dapm_mixer_update_power snd_soc_core
 alias symbol:ubi_unregister_volume_notifier ubi
-alias symbol:fbtft_write_gpio16_wr fbtft
 alias symbol:snd_soc_params_to_bclk snd_soc_core
 alias symbol:spk_var_show speakup
 alias symbol:roccat_common2_sysfs_write hid_roccat_common
-alias symbol:fbtft_write_buf_dc fbtft
 alias symbol:ip6_tnl_xmit_ctl ip6_tunnel
 alias symbol:snd_info_get_line snd
 alias symbol:v4l2_m2m_ioctl_streamoff v4l2_mem2mem
@@ -1720,7 +1690,6 @@ alias symbol:can_rx_offload_get_echo_skb can_dev
 alias symbol:dlm_lock dlm
 alias symbol:snd_soc_get_volsw_range snd_soc_core
 alias symbol:w1_ds2780_eeprom_cmd w1_ds2780
-alias symbol:fbtft_write_reg8_bus8 fbtft
 alias symbol:input_free_polled_device input_polldev
 alias symbol:brcmu_pktq_penq brcmutil
 alias symbol:drxd_attach drxd
@@ -1790,7 +1759,6 @@ alias symbol:ip_vs_proto_data_get ip_vs
 alias symbol:i2c_handle_smbus_alert i2c_smbus
 alias symbol:iio_map_array_register industrialio
 alias symbol:nf_connlabels_get nf_conntrack
-alias symbol:tifm_free_device tifm_core
 alias symbol:usbnet_unlink_rx_urbs usbnet
 alias symbol:btintel_read_boot_params btintel
 alias symbol:flexcop_device_initialize b2c2_flexcop
@@ -1853,7 +1821,6 @@ alias symbol:__snd_pcm_lib_xfer snd_pcm
 alias symbol:devm_iio_device_unregister industrialio
 alias symbol:ieee80211_sta_block_awake mac80211
 alias symbol:snd_tea575x_init tea575x
-alias symbol:tifm_alloc_device tifm_core
 alias symbol:release_and_free_resource snd
 alias symbol:snd_pcm_rate_range_to_bits snd_pcm
 alias symbol:synth_putws_s speakup
@@ -1872,7 +1839,6 @@ alias symbol:nand_get_features nand
 alias symbol:nfnl_acct_overquota nfnetlink_acct
 alias symbol:tap_destroy_cdev tap
 alias symbol:aarp_send_ddp appletalk
-alias symbol:fbtft_init_display fbtft
 alias symbol:v4l2_ctrl_new_custom videodev
 alias symbol:zs_compact zsmalloc
 alias symbol:snd_ecards_limit snd
@@ -1884,7 +1850,6 @@ alias symbol:dib0090_gain_control dib0090
 alias symbol:nft_obj_notify nf_tables
 alias symbol:snd_soc_add_component snd_soc_core
 alias symbol:snd_soc_dapm_sync_unlocked snd_soc_core
-alias symbol:tifm_register_driver tifm_core
 alias symbol:bcm2835_smi_write_buf bcm2835_smi
 alias symbol:setup_udp_tunnel_sock udp_tunnel
 alias symbol:tinydrm_memcpy tinydrm
@@ -1923,7 +1888,6 @@ alias symbol:snd_soc_get_volsw snd_soc_core
 alias symbol:adt7x10_remove adt7x10
 alias symbol:team_mode_register team
 alias symbol:arizona_out_ev snd_soc_arizona
-alias symbol:fbtft_dbg_hex fbtft
 alias symbol:snd_pcm_create_iec958_consumer snd_pcm
 alias symbol:fsg_fs_bulk_out_desc usb_f_mass_storage
 alias symbol:nand_prog_page_op nand
@@ -1936,7 +1900,6 @@ alias symbol:dvb_ringbuffer_read dvb_core
 alias symbol:media_pipeline_start media
 alias symbol:p9_client_clunk 9pnet
 alias symbol:usb_serial_handle_sysrq_char usbserial
-alias symbol:dw_dma_remove dw_dmac_core
 alias symbol:nf_conncount_count nf_conncount
 alias symbol:garp_request_leave garp
 alias symbol:nf_ct_tcp_seqadj_set nf_conntrack
@@ -2016,7 +1979,6 @@ alias symbol:fc0013_attach fc0013
 alias symbol:iscsi_conn_get_param libiscsi
 alias symbol:nf_flow_offload_ip_hook nf_flow_table
 alias symbol:__register_mtd_parser mtd
-alias symbol:dw_mci_pltfm_remove dw_mmc_pltfm
 alias symbol:hci_mgmt_chan_unregister bluetooth
 alias symbol:snd_soc_dai_set_channel_map snd_soc_core
 alias symbol:tea5761_attach tea5761
@@ -2041,7 +2003,6 @@ alias symbol:brcmu_pkt_buf_get_skb brcmutil
 alias symbol:cfg80211_report_wowlan_wakeup cfg80211
 alias symbol:nf_flow_table_iterate nf_flow_table
 alias symbol:cma3000_init cma3000_d0x
-alias symbol:dw_dma_enable dw_dmac_core
 alias symbol:cxgb4_alloc_atid cxgb4
 alias symbol:udp_tunnel_drop_rx_port udp_tunnel
 alias symbol:v4l2_ctrl_get_int_menu videodev
@@ -2181,7 +2142,6 @@ alias symbol:em28xx_audio_setup em28xx
 alias symbol:usbnet_read_cmd_nopm usbnet
 alias symbol:v4l2_event_unsubscribe videodev
 alias symbol:wm_adsp2_preloader_put snd_soc_wm_adsp
-alias symbol:dw_mci_runtime_suspend dw_mmc
 alias symbol:em28xx_set_mode em28xx
 alias symbol:usb_ep_free_request udc_core
 alias symbol:vchiq_mmal_component_init bcm2835_mmal_vchiq
@@ -2287,12 +2247,10 @@ alias symbol:cryptd_free_aead cryptd
 alias symbol:mtd_blktrans_cease_background mtd_blkdevs
 alias symbol:snd_pcm_lib_malloc_pages snd_pcm
 alias symbol:__media_device_register media
-alias symbol:cb710_sg_dwiter_write_next_block cb710
 alias symbol:dib0090_update_tuning_table_7090 dib0090
 alias symbol:synproxy_tstamp_adjust nf_synproxy_core
 alias symbol:videobuf_iolock videobuf_core
 alias symbol:hci_free_dev bluetooth
-alias symbol:tifm_has_ms_pif tifm_core
 alias symbol:__v4l2_ctrl_handler_setup videodev
 alias symbol:arizona_eq_coeff_put snd_soc_arizona
 alias symbol:fscache_op_complete fscache
@@ -2387,7 +2345,6 @@ alias symbol:nf_send_reset nf_reject_ipv4
 alias symbol:v4l2_m2m_ioctl_prepare_buf v4l2_mem2mem
 alias symbol:cx231xx_disable656 cx231xx
 alias symbol:alloc_ep_req libcomposite
-alias symbol:lib80211_crypt_info_init lib80211
 alias symbol:nf_ct_expect_put nf_conntrack
 alias symbol:cryptd_ahash_child cryptd
 alias symbol:snd_soc_calc_frame_size snd_soc_core
@@ -2618,7 +2575,6 @@ alias symbol:simd_unregister_skciphers crypto_simd
 alias symbol:fat_add_entries fat
 alias symbol:nand_check_erased_ecc_chunk nand
 alias symbol:lbc_read8 lbc
-alias symbol:lib80211_unregister_crypto_ops lib80211
 alias symbol:__ip_tunnel_change_mtu ip_tunnel
 alias symbol:ieee80211_radiotap_iterator_init cfg80211
 alias symbol:mdio45_links_ok mdio
@@ -2715,16 +2671,12 @@ alias symbol:cs42xx8_pm snd_soc_cs42xx8
 alias symbol:iio_channel_get industrialio
 alias symbol:iscsi_update_cmdsn libiscsi
 alias symbol:tinydrm_spi_max_transfer_size tinydrm
-alias symbol:dw_dma_filter dw_dmac_core
 alias symbol:usb_stor_bulk_srb usb_storage
 alias symbol:v4l2_m2m_job_finish v4l2_mem2mem
-alias symbol:fbtft_write_vmem16_bus16 fbtft
 alias symbol:wiphy_free cfg80211
-alias symbol:dw_dma_disable dw_dmac_core
 alias symbol:bt_warn bluetooth
 alias symbol:iscsi_itt_to_ctask libiscsi
 alias symbol:sms_board_event smsmdtv
-alias symbol:fbtft_unregister_backlight fbtft
 alias symbol:mtd_write_user_prot_reg mtd
 alias symbol:cfg80211_rx_mlme_mgmt cfg80211
 alias symbol:ms_sensors_read_prom_word ms_sensors_i2c
@@ -2770,7 +2722,6 @@ alias symbol:snd_soc_jack_add_zones snd_soc_core
 alias symbol:synproxy_options_size nf_synproxy_core
 alias symbol:zs_huge_class_size zsmalloc
 alias symbol:snd_lookup_minor_data snd
-alias symbol:fbtft_write_spi_emulate_9 fbtft
 alias symbol:snd_soc_register_component snd_soc_core
 alias symbol:v4l2_device_register videodev
 alias symbol:pppox_compat_ioctl pppox
@@ -2953,7 +2904,6 @@ alias symbol:cfg80211_free_nan_func cfg80211
 alias symbol:dib7000m_get_i2c_master dib7000m
 alias symbol:cxgb4_read_sge_timestamp cxgb4
 alias symbol:dvb_ringbuffer_empty dvb_core
-alias symbol:fbtft_write_gpio8_wr fbtft
 alias symbol:ms_sensors_show_heater ms_sensors_i2c
 alias symbol:ppp_output_wakeup ppp_generic
 alias symbol:snd_pcm_stream_unlock_irqrestore snd_pcm
@@ -3002,7 +2952,6 @@ alias symbol:dibusb2_0_streaming_ctrl dvb_usb_dibusb_common
 alias symbol:dibx000_i2c_set_speed dibx000_common
 alias symbol:iscsi_conn_start libiscsi
 alias symbol:usb_stor_CB_reset usb_storage
-alias symbol:cqhci_suspend cqhci
 alias symbol:dvb_ringbuffer_write dvb_core
 alias symbol:rndis_uninit usb_f_rndis
 alias symbol:cn_netlink_send cn
@@ -3029,7 +2978,6 @@ alias symbol:p9_client_getlock_dotl 9pnet
 alias symbol:usbnet_get_link usbnet
 alias symbol:fscache_mark_page_cached fscache
 alias symbol:uvc_set_trace_param usb_f_uvc
-alias symbol:fbtft_register_framebuffer fbtft
 alias symbol:net_failover_destroy net_failover
 alias symbol:snd_soc_add_dai_link snd_soc_core
 alias symbol:asoc_simple_card_of_parse_routing snd_soc_simple_card_utils
@@ -3082,7 +3030,6 @@ alias symbol:dvb_register_device dvb_core
 alias symbol:nand_wait_ready nand
 alias symbol:snd_card_new snd
 alias symbol:v4l2_ctrl_handler_free videodev
-alias symbol:fbtft_remove_common fbtft
 alias symbol:fscache_fsdef_index fscache
 alias symbol:lowpan_unregister_netdev 6lowpan
 alias symbol:videobuf_queue_to_vaddr videobuf_core
@@ -3147,14 +3094,12 @@ alias symbol:smscore_get_board_id smsmdtv
 alias symbol:snd_ctl_find_numid snd
 alias symbol:nf_nat_pptp_hook_expectfn nf_conntrack_pptp
 alias symbol:ct_sip_parse_address_param nf_conntrack_sip
-alias symbol:fbtft_write_vmem16_bus9 fbtft
 alias symbol:usbatm_usb_disconnect usbatm
 alias symbol:devm_mux_control_get mux_core
 alias symbol:go7007_read_addr go7007
 alias symbol:ubi_close_volume ubi
 alias symbol:charlcd_register charlcd
 alias symbol:cfg80211_sinfo_alloc_tid_stats cfg80211
-alias symbol:tifm_add_adapter tifm_core
 alias symbol:snd_soc_component_init_regmap snd_soc_core
 alias symbol:udp_tunnel6_xmit_skb ip6_udp_tunnel
 alias symbol:usb_stor_Bulk_reset usb_storage
@@ -3221,7 +3166,6 @@ alias symbol:__hci_cmd_send bluetooth
 alias symbol:smsclient_sendrequest smsmdtv
 alias symbol:arizona_sample_rate_val snd_soc_arizona
 alias symbol:ieee80211_stop_queue mac80211
-alias symbol:tifm_queue_work tifm_core
 alias symbol:usbip_in_eh usbip_core
 alias symbol:snd_usbmidi_input_start snd_usbmidi_lib
 alias symbol:register_snap_client psnap
@@ -3348,7 +3292,6 @@ alias symbol:stp_proto_register stp
 alias symbol:mux_control_states mux_core
 alias symbol:ip_tunnel_get_iflink ip_tunnel
 alias symbol:dvb_usb_nec_rc_key_to_event dvb_usb
-alias symbol:dw_mci_remove dw_mmc
 alias symbol:nft_redir_policy nft_redir
 alias symbol:snd_pcm_hw_param_first snd_pcm
 alias symbol:dvb_pll_attach dvb_pll
@@ -3398,7 +3341,6 @@ alias symbol:cxgb4_clip_get cxgb4
 alias symbol:ieee80211_sched_scan_stopped mac80211
 alias symbol:si470x_set_freq radio_si470x_common
 alias symbol:charlcd_alloc charlcd
-alias symbol:fbtft_write_reg16_bus8 fbtft
 alias symbol:l2tp_tunnel_create l2tp_core
 alias symbol:fsg_ss_bulk_in_desc usb_f_mass_storage
 alias symbol:tls_register_device tls
@@ -3438,8 +3380,6 @@ alias symbol:media_entity_remove_links media
 alias symbol:btmrvl_add_card btmrvl
 alias symbol:snd_ctl_boolean_mono_info snd
 alias symbol:v4l2_video_std_frame_period videodev
-alias symbol:fbtft_probe_common fbtft
-alias symbol:dw_mci_pltfm_register dw_mmc_pltfm
 alias symbol:fuse_dev_free fuse
 alias symbol:lgdt3305_attach lgdt3305
 alias symbol:strp_process strparser
@@ -3467,7 +3407,6 @@ alias symbol:usbnet_ether_cdc_bind cdc_ether
 alias symbol:gether_get_qmult u_ether
 alias symbol:snd_seq_kernel_client_write_poll snd_seq
 alias symbol:videobuf_queue_vmalloc_init videobuf_vmalloc
-alias symbol:lib80211_crypt_info_free lib80211
 alias symbol:qt1010_attach qt1010
 alias symbol:slhc_compress slhc
 alias symbol:cxgb4_ring_tx_db cxgb4
@@ -3525,7 +3464,6 @@ alias symbol:ppp_register_channel ppp_generic
 alias symbol:cxgb4_remove_server cxgb4
 alias symbol:devm_lcd_device_unregister lcd
 alias symbol:strp_data_ready strparser
-alias symbol:tifm_map_sg tifm_core
 alias symbol:adt7x10_probe adt7x10
 alias symbol:mtd_erase mtd
 alias symbol:v4l2_prio_check videodev
@@ -3536,7 +3474,6 @@ alias symbol:fscache_mark_pages_cached fscache
 alias symbol:usb_gadget_frame_number udc_core
 alias symbol:sound_class soundcore
 alias symbol:vsock_addr_cast vsock
-alias symbol:fbtft_write_gpio16_wr_latched fbtft
 alias symbol:snd_ctl_remove_id snd
 alias symbol:snd_soc_dapm_free snd_soc_core
 alias symbol:xfrm6_tunnel_register tunnel6
@@ -3552,10 +3489,8 @@ alias symbol:wm_adsp_compr_open snd_soc_wm_adsp
 alias symbol:ip_vs_conn_out_get ip_vs
 alias symbol:ipt_unregister_table ip_tables
 alias symbol:snd_soc_dai_set_clkdiv snd_soc_core
-alias symbol:hidma_mgmt_setup hdma_mgmt
 alias symbol:media_create_pad_link media
 alias symbol:v4l2_m2m_streamoff v4l2_mem2mem
-alias symbol:tifm_eject tifm_core
 alias symbol:wpan_phy_for_each ieee802154
 alias symbol:cxgb4_alloc_stid cxgb4
 alias symbol:ieee802154_max_payload ieee802154
@@ -3570,7 +3505,6 @@ alias symbol:usbnet_cdc_unbind cdc_ether
 alias symbol:dib0070_attach dib0070
 alias symbol:videobuf_alloc_vb videobuf_core
 alias symbol:cx231xx_init_bulk cx231xx
-alias symbol:tifm_alloc_adapter tifm_core
 alias symbol:dvb_unregister_frontend dvb_core
 alias symbol:rndis_set_param_vendor usb_f_rndis
 alias symbol:nf_connlabels_replace nf_conntrack
@@ -3591,7 +3525,6 @@ alias symbol:nf_conntrack_l4proto_tcp6 nf_conntrack
 alias symbol:tm6000_register_extension tm6000
 alias symbol:fuse_dev_release fuse
 alias symbol:snd_seq_autoload_exit snd_seq_device
-alias symbol:dw_mci_pltfm_pmops dw_mmc_pltfm
 alias symbol:dvb_ringbuffer_init dvb_core
 alias symbol:fuse_request_send fuse
 alias symbol:nf_conntrack_free nf_conntrack
@@ -3682,7 +3615,6 @@ alias symbol:init_rs_gfp reed_solomon
 alias symbol:vb2_reqbufs videobuf2_v4l2
 alias symbol:arpt_register_table arp_tables
 alias symbol:udp_sock_create4 udp_tunnel
-alias symbol:lib80211_register_crypto_ops lib80211
 alias symbol:v4l2_clk_set_rate videodev
 alias symbol:wdev_to_ieee80211_vif mac80211
 alias symbol:cfg80211_rx_control_port cfg80211
